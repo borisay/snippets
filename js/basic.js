@@ -5,7 +5,7 @@
 (function ($) {
 Drupal.behaviors.combineYears = {
   attach: function (context, settings) {
-    var acadYear = $(".view-siepr-person-visitors .views-field-field-academic-year-1");
+    var acadYear = $(".views-field-field-academic-year");
     var prefix;
     $.each(acadYear, function(x, y){
       var textYears = $(this).text();
