@@ -52,7 +52,7 @@ END:VEVENT
 END:VCALENDAR
 ```
 
-The full view configuration is given in this [file](https://github/borisay/snippets/private/views.view.test_event_export.yml).
+The full view configuration is given in this [file](views.view.test_event_export.yml).
 ## Step 2: Finishing .ics with JQuery
 JS helps arrange some changes like start and end dates according to [specification](https://en.wikipedia.org/wiki/ICalendar) and get downloaded file. The code to do that [here](ical-export.js). Finally, the file .ics will look like this:
 ```
